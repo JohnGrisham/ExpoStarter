@@ -1,11 +1,20 @@
 {
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "jsx": "react-native",
-    "lib": ["dom", "esnext"],
-    "moduleResolution": "node",
-    "noEmit": true,
-    "skipLibCheck": true,
-    "resolveJsonModule": true
-  }
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"jsx": "preserve",
+		"lib": ["dom", "esnext"],
+		"moduleResolution": "node",
+		"noEmit": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"target": "es5",
+		"allowJs": true,
+		"strict": false,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"isolatedModules": true
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "base/platform/native/tensorflow.native.js"],
+	"exclude": ["node_modules"]
 }

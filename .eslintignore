@@ -1,0 +1,14 @@
+next.config.js
+tsconfig.json
+prettier.config.js
+.eslintrc.json
+/**/*.d.ts
+*.css
+*.yml
+.expo/*
+.next/*
+.vscode/*
+node_modules
+yarn.lock
+yarn-error.log
+README.md
