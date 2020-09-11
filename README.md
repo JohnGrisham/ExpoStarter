@@ -1,4 +1,4 @@
-# [TypeScript Example](https://www.typescriptlang.org/)
+# [Expo Starter](https://expo.io/)
 
 <p>
   <!-- iOS -->
@@ -10,26 +10,25 @@
 </p>
 
 ```sh
-npx create-react-native-app -t with-typescript
+expo start
 ```
 
-
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
+Getting started: https://expo.io/learn
 
 ## 🚀 How to use
 
-#### Creating a new project
+#### IOS / Android
 
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `expo init --template expo-template-blank-typescript`
-- `cd` into the project
+- Install the expo app on your phone
+- Scan the barcode with the expo app
 
-### Adding TypeScript to existing projects
+#### Web
 
-- Copy the `tsconfig.json` from this repo, or new typescript template
-- Add typescript dependencies: `yarn add --dev @types/react @types/react-native @types/react-dom typescript`
-- Rename files tpo TypeScript, `.tsx` for React components and `.ts` for plain typescript files
+- After starting expo hit w on your keyboard or click run in browser in the metro server
 
 ## 📝 Notes
 
+- [Expo Next guide](https://docs.expo.io/guides/using-nextjs/)
 - [Expo TypeScript guide](https://docs.expo.io/versions/latest/guides/typescript/)
+- [Expo Styled Components guide](https://docs.expo.io/guides/using-styled-components/)
+- [Tensorflow js](https://www.tensorflow.org/js)
